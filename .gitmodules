@@ -1,0 +1,6 @@
+[submodule "PISEClient"]
+	path = PISEClient
+	url = https://github.com/ron4548/PISEClient
+[submodule "PISEServer"]
+	path = PISEServer
+	url = https://github.com/ron4548/PISEServer
