@@ -15,6 +15,7 @@ printf "${CYAN}Creating a virtual environment for PISEServer...${NC}\n"
 cd PISEServer
 python3 -m venv venv
 printf "${CYAN}Installing Python requirements...${NC}\n"
+./venv/bin/pip install --upgrade pip
 ./venv/bin/pip install -q -r requirements.txt
 cd ..
 
