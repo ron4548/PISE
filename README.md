@@ -5,6 +5,8 @@ PISE (Protocol Inference with Symbolic Execution) is a tool that leverages symbo
 - [The server](https://github.com/ron4548/PISEServer): for performing the symbolic execution. Implemented in Python.
 - [The client](https://github.com/ron4548/PISEClient): responsible for automata learning. Implemented in Java.
 
+*NOTE: this repo provides scripts for easy installing and running our tool on Ubuntu 20.04. If you wish to run it in Windows or Mac, then you will have to manually install and setup the server and the client.*
+
 ## Installation
 
 Simply `chmod +x install.sh`, and then `./install.sh`.
